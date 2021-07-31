@@ -11,8 +11,8 @@ for j in os.listdir('random image'):
     img_2 = nasnet.preprocess_input(np.expand_dims(img_2, axis=0))
     result = nasnet.decode_predictions(model.predict(img_2), top=5)
     for i in result[0]:
-        print(i)
         if i[2] >= 0.50:
+            print(i[1], i[2])
             name = i[1]
             if name in os.listdir('designe image'): shutil.copy(img_path_in,f"designe image/{name}")
             else: 
