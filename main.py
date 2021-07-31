@@ -16,5 +16,5 @@ for j in os.listdir('random image'):
             name = i[1]
             if name in os.listdir('designe image'): shutil.copy(img_path_in,f"designe image/{name}")
             else: 
-                os.mkdir(f"designe image/{name}")
+                os.mkdir(f"designe image/{name}") 
                 shutil.copy(img_path_in,f"designe image/{name}")
