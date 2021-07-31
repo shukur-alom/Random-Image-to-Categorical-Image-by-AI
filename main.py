@@ -13,7 +13,7 @@ for j in os.listdir('random image'):
         if i[2] >= 0.50:
             print(i[1], i[2])
             name = i[1]
-            if name in os.listdir('designe image'): shutil.copy(img_path_in,f"designe image/{name}")
+            if name in os.listdir('categories image'): shutil.copy(img_path_in,f"categories image/{name}")
             else: 
-                os.mkdir(f"designe image/{name}") 
-                shutil.copy(img_path_in,f"designe image/{name}")
+                os.mkdir(f"categories image/{name}") 
+                shutil.copy(img_path_in,f"categories image/{name}")
