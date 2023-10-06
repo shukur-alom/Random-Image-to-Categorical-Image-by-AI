@@ -12,10 +12,8 @@ This project uses the NASNet Large deep learning model to classify images into p
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Dataset](#dataset)
 - [Model](#model)
 - [Results](#results)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
